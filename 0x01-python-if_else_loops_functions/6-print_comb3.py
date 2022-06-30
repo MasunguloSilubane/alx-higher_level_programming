@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-for i in range(0, 8):
-    for j in range(i + 1, 10):
-        print("{:d}{:d}".format(i, j), end=', ')
-print("{:d}{:d}".format(i + 1, j))
+for x in range(100):
+    if x < 99:
+        print("{:02d}, ".format(x), end="")
+    else:
+        print("{:02d}".format(x))
